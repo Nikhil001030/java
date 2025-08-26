@@ -8,7 +8,7 @@ public static void main(String[] args) {
         if((i>1 && st[i-1]==' ') || i==0){
                 System.out.print(Character.toUpperCase(st[i]));
         }else{
-            System.out.print(st[i]);
+            System.out.print(Character.toLowerCase(st[i]));
         }
     }
 }
